@@ -6,10 +6,10 @@ export default function Output({ joke, btnText }) {
     <>
       {btnText === 'Get Another Joke'
         || btnText === 'Get Punchline'
-        ? <h3>{joke.setup}</h3>
+        ? <h6>{joke.setup}</h6>
         : ''}
       {btnText === 'Get Another Joke'
-        ? <h3>{joke.delivery}</h3>
+        ? <h6>{joke.delivery}</h6>
         : ''}
     </>
   );
